@@ -30,17 +30,19 @@ var boutton = document.createElement('button');
  // Générateur aléatoire
 
 
+
 document.getElementById('boutton0').addEventListener("click",
             function () {
 
                 var storyspan= document.getElementById('history');
-                var Gennoms= noms[Math.floor(Math.random() * 22)];
+
+                /*var Gennoms= noms[Math.floor(Math.random() * 22)];
                 var Genobjets= objets[Math.floor(Math.random() * 21)];
                 var Genntemp= temperature[Math.floor(Math.random() * 19)];
                 var Genlieux= lieux[Math.floor(Math.random() * 22)];
-                var Genverbes= verbes[Math.floor(Math.random() * 20)];
+                var Genverbes= verbes[Math.floor(Math.random() * 20)];*/
 
-                storyspan.innerHTML= Gennoms + ' ' + Genobjets + ' ' + Genntemp + ' ' + Genlieux + ' ' + Genverbes;
+                storyspan.innerHTML= randomValue + ' ' + randomValue1 + ' ' + randomValue2 + ' ' + randomValue3 + ' ' + randomValue4;
 
 
             }
