@@ -7,11 +7,11 @@ var objets = ['Ordinateur', 'Téléphone', 'Téléphone Portable','Montre','Ordi
 
 var temperature = ['10°','30°','37,2°','100°','-5°','-50°','5°','12°','25°','37°','25°','69°','18°','-30°','-40°','70°','28°','24°','22°'];
 
-var lieux =['Floyon','Wignehies','Barcelona','Paris','Tokyo','Reykjavik','Bondy','Rio de Janeiro','Big Ben','Mont Fuji','Mc Do','KFC','Montcuq','Chute du Niagara',
-             'HidePark','Burger King',"Palais de l'élysée",'Mairie de Paris','Mons','Trélon','Le touquet','Fourmies'];
+var lieux =['Floyon','Wignehies','Barcelona','Paris','Tokyo','Reykjavik','Bondy','Rio de Janeiro','Big Ben','le Mont Fuji','le Mc Do','le KFC','Montcuq','les Chutes du Niagara',
+             'HidePark','le Burger King',"le Palais de l'élysée",'la Mairie de Paris','Mons','Trélon','Le touquet','Fourmies'];
 
-var verbes = ['Coder','Copier','Coordonner','Avoir','aimer','être','Passionner','Soulever','évoluer','nager','monter','développer','jouer','voter','arnarquer',
-              'manger',"S'envoyer",'Enfourner','Accomplir','Communiquer'];
+var verbes = ['Code','Copie','Coordonne','Avoir','aime','est','Passionne','Soulève','évolue','nage','monte','développe','joue','vote','arnarque',
+              'mange',"S'envoye",'Enfourne','Accompli','Communique'];
 
 
 // Prompt
@@ -48,13 +48,13 @@ boutton.innerHTML="Commencer l'histoire";
              
             if ( alea >= 5) {
 
-                storyspan.innerHTML +=  '<br>' + '<br>' + Gennoms + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
+                storyspan.innerHTML +=  '<br>' + '<br>' + Gennoms + ' ' + Genverbes + ' ' + 'un(e)' + ' ' + Genobjets + ' ' + 'dans' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
 
             }
             if (alea < 5 ) {
 
-                storyspan.innerHTML +=  '<br>' + '<br>' + prenom + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
+                storyspan.innerHTML +=  '<br>' + '<br>' + prenom  + ' ' + Genverbes + ' ' + 'un(e)' + ' ' + Genobjets + ' ' + 'dans ' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
             }}});
 
