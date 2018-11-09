@@ -14,9 +14,9 @@ var verbes = ['Coder','Copier','Coordonner','Avoir','aimer','être','Passionner'
               'manger',"S'envoyer",'Enfourner','Accomplir','Communiquer'];
 
 
-/**  Prompt
+// Prompt
 
- var prénom= prompt('Quel est votre prénom ?');  **/
+ var prenom= prompt('Quel est votre prénom ?');
 
 
  // Boutton générer
@@ -33,21 +33,28 @@ boutton.innerHTML="Commencer l'histoire";
  document.getElementById('boutton0').addEventListener("click",
             function () {
 
-                var storyspan= document.getElementById('History');
+     var storyspan= document.getElementById('History1');
+     var alea = Math.random()*10;
 
+            for ( var i = 0 ; i < 3 ; i++)  {
 
-                var Gennoms= noms[Math.floor(Math.random()*noms.length)];
+                var Gennoms = noms[Math.floor(Math.random()*noms.length)];
                 var Genobjets= objets[Math.floor(Math.random()*objets.length)];
                 var Genntemp= temperature[Math.floor(Math.random()*temperature.length)];
                 var Genlieux= lieux[Math.floor(Math.random()*lieux.length)];
                 var Genverbes= verbes[Math.floor(Math.random()*verbes.length)];
+             
+            if ( alea <= 5) {
+
+                storyspan.innerHTML +=  '<br>' + '<br>' + Gennoms + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
 
-                    storyspan.innerHTML = Gennoms + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp;
+            }
+            if (alea > 5 ) {
 
+                storyspan.innerHTML +=  '<br>' + '<br>' + prenom + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
-           }
-    );
+            }}});
 
 
 
