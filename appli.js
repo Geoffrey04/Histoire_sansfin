@@ -35,13 +35,15 @@ boutton.innerHTML="Commencer l'histoire";
 
                 var storyspan= document.getElementById('History');
 
+
                 var Gennoms= noms[Math.floor(Math.random()*noms.length)];
                 var Genobjets= objets[Math.floor(Math.random()*objets.length)];
                 var Genntemp= temperature[Math.floor(Math.random()*temperature.length)];
                 var Genlieux= lieux[Math.floor(Math.random()*lieux.length)];
                 var Genverbes= verbes[Math.floor(Math.random()*verbes.length)];
 
-                storyspan.innerHTML= Gennoms + ' ' + Genobjets + ' ' + Genntemp + ' ' + Genlieux + ' ' + Genverbes;
+
+                    storyspan.innerHTML = Gennoms + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp;
 
 
            }
