@@ -21,29 +21,30 @@ var verbes = ['Coder','Copier','Coordonner','Avoir','aimer','être','Passionner'
 
  // Boutton générer
 
-var boutton = document.createElement('button');
-              document.body.appendChild(boutton);
-              boutton.id='boutton0';
-              boutton.innerHTML="Commencer l'histoire";
 
+var boutton = document.createElement('button');
+document.body.appendChild(boutton);
+boutton.id='boutton0';
+boutton.innerHTML="Commencer l'histoire";
 
  // Générateur aléatoire
 
 
-document.getElementById('boutton0').addEventListener("click",
+ document.getElementById('boutton0').addEventListener("click",
             function () {
 
-                var storyspan= document.getElementById('history');
-                var Gennoms= noms[Math.floor(Math.random() * 22)];
-                var Genobjets= objets[Math.floor(Math.random() * 21)];
-                var Genntemp= temperature[Math.floor(Math.random() * 19)];
-                var Genlieux= lieux[Math.floor(Math.random() * 22)];
-                var Genverbes= verbes[Math.floor(Math.random() * 20)];
+                var storyspan= document.getElementById('History');
+
+                var Gennoms= noms[Math.floor(Math.random()*noms.length)];
+                var Genobjets= objets[Math.floor(Math.random()*objets.length)];
+                var Genntemp= temperature[Math.floor(Math.random()*temperature.length)];
+                var Genlieux= lieux[Math.floor(Math.random()*lieux.length)];
+                var Genverbes= verbes[Math.floor(Math.random()*verbes.length)];
 
                 storyspan.innerHTML= Gennoms + ' ' + Genobjets + ' ' + Genntemp + ' ' + Genlieux + ' ' + Genverbes;
 
 
-            }
+           }
     );
 
 
