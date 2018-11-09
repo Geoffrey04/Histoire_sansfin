@@ -27,6 +27,7 @@ document.body.appendChild(boutton);
 boutton.id='boutton0';
 boutton.innerHTML="Commencer l'histoire";
 
+
  // Générateur aléatoire
 
 
@@ -38,7 +39,6 @@ boutton.innerHTML="Commencer l'histoire";
             for ( var i = 0 ; i < 3 ; i++)  {
 
                 var alea = Math.floor(Math.random()*10);
-                    alert(alea);
 
                 var Gennoms = noms[Math.floor(Math.random()*noms.length)];
                 var Genobjets= objets[Math.floor(Math.random()*objets.length)];
@@ -57,6 +57,37 @@ boutton.innerHTML="Commencer l'histoire";
                 storyspan.innerHTML +=  '<br>' + '<br>' + prenom  + ' ' + Genverbes + ' ' + 'un(e)' + ' ' + Genobjets + ' ' + 'dans ' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
             }}});
+
+
+
+// Entree champ utilisateur
+
+
+var envoyer = document.getElementsByClassName('envoyer');
+
+for ( var i = 0; i < envoyer.length; i++) {
+
+    envoyer[i].addEventListener('click', function(e)
+    {
+        var nvverbes1 = document.getElementById('nvverbes').value;
+        var nvobjets1 = document.getElementById('nvobjets').value;
+        var nvlieux1 = document.getElementById('nvlieux').value;
+
+        verbes.push(nvverbes1);
+        objets.push(nvobjets1);
+        lieux.push(nvlieux1);
+
+        console.log(objets);
+    });
+}
+
+
+
+
+
+
+
+
 
 
 
