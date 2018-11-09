@@ -34,9 +34,11 @@ boutton.innerHTML="Commencer l'histoire";
             function () {
 
      var storyspan= document.getElementById('History1');
-     var alea = Math.random()*10;
 
             for ( var i = 0 ; i < 3 ; i++)  {
+
+                var alea = Math.floor(Math.random()*10);
+                    alert(alea);
 
                 var Gennoms = noms[Math.floor(Math.random()*noms.length)];
                 var Genobjets= objets[Math.floor(Math.random()*objets.length)];
@@ -44,13 +46,13 @@ boutton.innerHTML="Commencer l'histoire";
                 var Genlieux= lieux[Math.floor(Math.random()*lieux.length)];
                 var Genverbes= verbes[Math.floor(Math.random()*verbes.length)];
              
-            if ( alea <= 5) {
+            if ( alea >= 5) {
 
                 storyspan.innerHTML +=  '<br>' + '<br>' + Gennoms + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
 
             }
-            if (alea > 5 ) {
+            if (alea < 5 ) {
 
                 storyspan.innerHTML +=  '<br>' + '<br>' + prenom + ' ' + 'a un(e) ' + Genobjets + ' ' + 'qui fait' + ' ' + Genverbes + ' ' + 'dans la/le/les' + ' ' + Genlieux + ' ' + 'où il fait' + ' ' + Genntemp + '<br>' + '<br>';
 
