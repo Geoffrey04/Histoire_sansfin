@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4b81b397-b3a3-4b88-ad64-c655aeb11a8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/appli.js" beforeDir="false" afterPath="$PROJECT_DIR$/appli.js" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="f67353e0-382a-4202-b3dc-a2e175731235" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/appli.js" beforeDir="false" afterPath="$PROJECT_DIR$/appli.js" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="4b81b397-b3a3-4b88-ad64-c655aeb11a8c" name="Default Changelist" comment="" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +21,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
+<<<<<<< HEAD
+    <session id="-258318129">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+=======
     <session id="-608048667">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -32,23 +49,57 @@
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
+<<<<<<< HEAD
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="47" />
+=======
+<<<<<<< HEAD
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="112" />
+          <entry key="js" value="2014" />
+          <entry key="txt" value="68" />
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JavaScript" value="47" />
         </counts>
       </usages-collector>
+=======
+          <entry key="HTML" value="112" />
+          <entry key="JavaScript" value="2014" />
+          <entry key="PLAIN_TEXT" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.js.language.service.starts" />
+=======
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
+<<<<<<< HEAD
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+=======
           <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -58,14 +109,36 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appli.js">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
             </state>
           </provider>
+=======
+<<<<<<< HEAD
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            </state>
+          </provider>
+=======
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
         </entry>
       </file>
     </leaf>
+  </component>
+<<<<<<< HEAD
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,22 +146,52 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/appli.js" />
       </list>
     </option>
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+<<<<<<< HEAD
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/appli.js" />
+      </list>
+    </option>
+  </component>
+=======
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="33" />
+    <option name="width" value="1400" />
+    <option name="height" value="815" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="595" />
     <option name="y" value="96" />
     <option name="width" value="899" />
     <option name="height" value="858" />
   </component>
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -109,7 +212,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="true" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,6 +239,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="f67353e0-382a-4202-b3dc-a2e175731235" name="Default Changelist" comment="" />
+      <created>1541754092660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541754092660</updated>
+      <workItem from="1541754094082" duration="3503000" />
+    </task>
+    <task id="LOCAL-00001" summary="Début_Histoiresansfin">
+      <created>1541755294356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541755294356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add_fonctionaléatoire et boutton">
+      <created>1541756684626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541756684626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3503000" />
+=======
       <changelist id="4b81b397-b3a3-4b88-ad64-c655aeb11a8c" name="Default Changelist" comment="" />
       <created>1541755589728</created>
       <option name="number" value="Default" />
@@ -138,7 +277,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1956000" />
+=======
+    <option name="totallyTimeSpent" value="841000" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -172,6 +316,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Début_Histoiresansfin" />
+    <MESSAGE value="Add_fonctionaléatoire et boutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add_fonctionaléatoire et boutton" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -180,11 +348,16 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/appli.js">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 679ddeaed12f274f0d1c9e431fd203fa27131d3b
+>>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
     </entry>
   </component>
 </project>
