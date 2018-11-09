@@ -30,19 +30,6 @@ boutton.innerHTML="Commencer l'histoire";
  // Générateur aléatoire
 
 
-<<<<<<< HEAD
-
-document.getElementById('boutton0').addEventListener("click",
-            function () {
-
-                var storyspan= document.getElementById('history');
-
-                /*var Gennoms= noms[Math.floor(Math.random() * 22)];
-                var Genobjets= objets[Math.floor(Math.random() * 21)];
-                var Genntemp= temperature[Math.floor(Math.random() * 19)];
-                var Genlieux= lieux[Math.floor(Math.random() * 22)];
-                var Genverbes= verbes[Math.floor(Math.random() * 20)];*/
-=======
  document.getElementById('boutton0').addEventListener("click",
             function () {
 
@@ -53,9 +40,8 @@ document.getElementById('boutton0').addEventListener("click",
                 var Genntemp= temperature[Math.floor(Math.random()*temperature.length)];
                 var Genlieux= lieux[Math.floor(Math.random()*lieux.length)];
                 var Genverbes= verbes[Math.floor(Math.random()*verbes.length)];
->>>>>>> 8c21b94881bb74240f7285dc5cb12dcb51aaf9aa
 
-                storyspan.innerHTML= randomValue + ' ' + randomValue1 + ' ' + randomValue2 + ' ' + randomValue3 + ' ' + randomValue4;
+                storyspan.innerHTML= Gennoms + ' ' + Genobjets + ' ' + Genntemp + ' ' + Genlieux + ' ' + Genverbes;
 
 
            }
